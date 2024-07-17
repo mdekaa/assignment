@@ -49,7 +49,7 @@ const RegistrationForm = async () => {
             </Label>
             <Input
                 id="password"
-                placeholder="********* (must be more then 8 letters)"
+                placeholder="********* (must be more then 6 letters)"
                 type="password"
                 name="password"
                 className="text-slate-400 mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white mb-6"
