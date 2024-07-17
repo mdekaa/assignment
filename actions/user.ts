@@ -45,8 +45,8 @@ const register = async(formData : FormData) => {
     if(username.length < 3){
         throw new Error("username must be more than 3 letters");
     }
-    if(password.length < 6){
-        throw new Error("password must be more than 6 letters");
+    if(password.length < 4){
+        throw new Error("password must be more than 4 letters");
     }
 
     await connectdb();

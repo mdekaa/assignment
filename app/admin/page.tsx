@@ -32,8 +32,8 @@ const Admins = async () => {
         <tbody>
           {allUsers?.map((user:any) => (
             <tr key={user._id}>
-              <td className="p-2">{user.username}</td>
-              <td className="p-2">{user.email}</td>
+              <td className="p-2 text-white">{user.username}</td>
+              <td className="p-2 text-white">{user.email}</td>
               <td className="p-2">
                 <form
                   action={async () => {
