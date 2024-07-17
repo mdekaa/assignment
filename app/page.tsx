@@ -55,7 +55,7 @@ const Home = async () => {
             Login &rarr;
           </button>
           <p className="text-right text-white text-sm max-w-sm mt-4 dark:text-neutral-300">
-            Don't have an account? <Link href="/register" className="ml-1 text-white hover:text-indigo-500">Register</Link>
+            Dont have an account? <Link href="/register" className="ml-1 text-white hover:text-indigo-500">Register</Link>
           </p>
           <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-8 h-[1px] w-full" />
         </form>
